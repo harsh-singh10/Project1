@@ -1,0 +1,68 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+  
+    min-height: 100vh;
+    background-color: rgb(181, 214, 243);
+    border: 10px solid black;
+}
+.contant{
+    max-width: 900px;
+    margin: auto;
+}
+.image_container img{
+    height: 288px;
+    width: 271px;
+    margin: 40px 0;
+    border-radius: 96px;
+}
+.top{
+    margin-top: 100px;
+    width: 900px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+.top h1{
+    font-size: 3.4rem;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: rgb(0, 0, 0);
+    margin-bottom: 3px;
+}
+.top h4{
+    font-size: 1.4rem;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: rgb(0, 0, 0);
+    text-align: end;
+}
+.about{
+    margin-top: 5px;
+}
+.about h2{
+    font-size: 40px;
+    word-spacing: 2px;
+}
+.about p{
+    font-size: 18px;
+    word-spacing: 2px;
+    letter-spacing: 1.2px;
+    margin-top: 2px;
+    text-align: justify;
+}
+.bio{
+    margin: 50px;
+    font-size: 1.3rem;}
+.bio h2{
+    margin-bottom: 10px;
+}
+footer{
+    font-size: 20px;
+    text-align: end;
+}
+footer a:hover{
+    color: red;
+}
