@@ -1,1 +1,1 @@
-# This is my Readme file
+# A simple project using HTML and CSS
